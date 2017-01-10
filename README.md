@@ -1,6 +1,6 @@
 # SIMD_Vectorization_MultiCore
 
-This software package illustrates the power of SIMD (Single Instruciton Multiple Data) through vectorization techniques as well as multi-core processing with the latest Microsoft .NET System.Numerics library. The codebase examples illustrate the marked speedup of processing using in the context of computer graphics, a very common application for the use of vectors and matricies. The solution contains two projects: Mandelbrot and RayTracer. The code is an update of a by Immo Landwerth which had last been updated on 4/4/2014. https://code.msdn.microsoft.com/windowsdesktop/SIMD-Sample-f2c8c35a
+This software package illustrates the power of SIMD (Single Instruciton Multiple Data) through vectorization techniques as well as multi-core processing with the latest Microsoft .NET System.Numerics library. The codebase examples illustrate the marked speedup of processing using in the context of computer graphics, a very common application for the use of vectors and matricies. The solution contains two projects: Mandelbrot and RayTracer. The code is an update of a post by Immo Landwerth which had last been updated on 4/4/2014. https://code.msdn.microsoft.com/windowsdesktop/SIMD-Sample-f2c8c35a
 
 The modified codebase I have posted has the following changes:
 The projects were upgraded to the latest version of the System.Numerics.Vectors (4.3.0) which can be obtained via NuGet here: https://www.nuget.org/packages/System.Numerics.Vectors.
@@ -20,7 +20,6 @@ VectorFloat.cs
 VectorFloatStruct.cs
 VectorHelpers.cs
 
-
 //RayTrace file upgrade
 App.xaml.cs
 Camera.cs
@@ -39,6 +38,8 @@ enable-jit.cmd
 disable-jit.cmd
 
 How to run this code:
+You must have Visual Studio 2015 Community, Professional, Enterprise (.NET 4.5 or higher) running on a multi-core computer.
+
 This code requires version 4.3.0 of the System.Numerics.Vectors library or later. To get this:
 Go to https://www.nuget.org/packages/System.Numerics.Vectors
 (you must have NuGet installed on your system)
