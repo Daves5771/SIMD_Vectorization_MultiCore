@@ -23,3 +23,6 @@ To install System.Numerics.Vectors, run the following command in the Nuget Packa
 Install-Package System.Numerics.Vectors
 
 To learn more about the SIMD goto https://code.msdn.microsoft.com/windowsdesktop/SIMD-Sample-f2c8c35a but note, a number of items are now obsolete, especially in the Prerequisites section.
+
+
+![Alt text](SIMD_Vectorization_MultiCore/Mandelbrot.png?raw=true "Mandelbrot Title")
