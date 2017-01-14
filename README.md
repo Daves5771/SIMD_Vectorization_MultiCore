@@ -7,7 +7,7 @@ The projects were upgraded to the latest version of the System.Numerics.Vectors 
 
 Upgrading from the previous Microsoft.Bcl.Simd.1.0.1-beta library, necessitated a number of changes.
 Most of the helper functions in Util.c I deprecated and  replaced with the native functions available in the newer library.
-Some minor bug fixes were made.
+A number of bug fixes were also made.
 
 The following scripts are no longer needed:
 enable-jit.cmd 
