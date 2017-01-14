@@ -25,4 +25,4 @@ Install-Package System.Numerics.Vectors
 To learn more about the SIMD goto https://code.msdn.microsoft.com/windowsdesktop/SIMD-Sample-f2c8c35a but note, a number of items are now obsolete, especially in the Prerequisites section.
 
 
-![Alt text](ScreenShots/Mandelbrot.png  "Figure 2 - Sample output")
+![Alt text](ScreenShots/Mandelbrot_Single.png  "Figure 1 - Single Threaded Mandelbrot Flythru")
