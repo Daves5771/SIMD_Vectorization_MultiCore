@@ -29,4 +29,4 @@ To learn more about the SIMD goto https://code.msdn.microsoft.com/windowsdesktop
 ![Alt text](ScreenShots/Mandelbrot_Multi.png  "Figure 2 - Multi Threaded Mandelbrot Flythru")
 ![Alt text](ScreenShots/Mandelbrot_Multi_SIMD.png  "Figure 3 - Multi Threaded-SIMD Mandelbrot Flythru")
 ![Alt text](ScreenShots/RayTracer Double Plan.png  "Figure 4 -Ray Tracer Double Plane")
-![Alt text](ScreenShots/RayTracer Double Plan.png  "Figure 5 -Ray Tracer Single Plane")
+![Alt text](ScreenShots/RayTracer Single Plane.png  "Figure 5 -Ray Tracer Single Plane")
