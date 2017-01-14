@@ -6,10 +6,10 @@ The modified codebase I have posted has numerous changes from the original as th
 The projects were upgraded to the latest version of the System.Numerics.Vectors (4.3.0) which can be obtained via NuGet here: https://www.nuget.org/packages/System.Numerics.Vectors.
 
 Upgrading from the previous Microsoft.Bcl.Simd.1.0.1-beta library, necessitated a number of changes.
-Most of the helper functions in Util.c were deprecated and were replaced with the new native functions available in the newer library.
+Most of the helper functions in Util.c I deprecated and  replaced with the native functions available in the newer library.
 Some minor bug fixes were made.
 
-The following scripts are no longer needed
+The following scripts are no longer needed:
 enable-jit.cmd 
 disable-jit.cmd
 
